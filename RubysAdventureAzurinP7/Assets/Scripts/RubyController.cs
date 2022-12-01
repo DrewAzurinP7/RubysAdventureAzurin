@@ -64,13 +64,5 @@ public class RubyController : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         Debug.Log(currentHealth + "/" + maxHealth);
     }
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        RubyController player = other.gameObject.GetComponent<RubyController>();
 
-        if (player != null) ;
-        {
-            player.ChangeHealth(-1);
-        }
-    }
 }

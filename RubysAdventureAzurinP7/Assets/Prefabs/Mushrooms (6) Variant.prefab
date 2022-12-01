@@ -21,7 +21,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1795481157979289893, guid: 8f5beead19fc93445a9eafd047e02b30, type: 3}
       propertyPath: m_Name
-      value: Mushrooms (6)
+      value: Mushrooms (6) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3978676782981801633, guid: 8f5beead19fc93445a9eafd047e02b30, type: 3}
       propertyPath: m_RootOrder
